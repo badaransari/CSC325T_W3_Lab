@@ -10,5 +10,8 @@ package edu.farmingdale.csc325t;
  * @author badaransari
  */
 public class Student {
-    
+    String fName;
+    String lName;
+    double gpa;
+   
 }
