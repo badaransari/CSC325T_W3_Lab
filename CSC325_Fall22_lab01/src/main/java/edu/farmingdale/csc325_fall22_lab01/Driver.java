@@ -11,6 +11,11 @@ package edu.farmingdale.csc325_fall22_lab01;
  */
 public class Driver {
     
-  
+    public static void main(String[] args) {
     
-}
+    
+    }
+ }
+        
+    
+
