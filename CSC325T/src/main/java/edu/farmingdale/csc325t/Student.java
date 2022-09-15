@@ -10,7 +10,7 @@ package edu.farmingdale.csc325t;
  * @author badaransari
  */
 
-public class Student {
+public class Student implements Person {
     String fName;
     String lName;
     double gpa;
@@ -37,6 +37,14 @@ public class Student {
 
     public void setGpa(double gpa) {
         this.gpa = gpa;
+    }
+
+    @Override
+    public void setAddress() {
+    }
+
+    @Override   //happen only in between parent and a child
+    public String getAddress() {
     }
     
     
