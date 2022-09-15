@@ -15,6 +15,7 @@ public class Driver {
     
          
         Student std = new Student();
+        std.setName("Badar");
         
         System.out.println("The student is" + std.toString());
     
